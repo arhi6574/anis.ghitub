@@ -1,0 +1,85 @@
+<!DOCTYPE html> <!-- le document utiliser HTML5--> 
+
+<html lang="fr"> <!-- la langue du document est en français --> 
+
+<head> <!-- informations sur la page (métadonnées, tritres, liens...) --> 
+
+    <meta charset="utf-8"> <!-- définit l'encodage des caractères en UTF 8  --> 
+
+    <title>Cabinet Medical de Dr.Echaïeb</title> <!-- définit le titre de la page affiché dans l'onglet du naviguateur -->  
+</head>
+
+<body> <!-- contenu visible de la page html (textes, images etc...) --> 
+ 
+    <h1>Cabinet Medical du <a href="CVCL.html" target="_blank">Dr Echaïeb</a></h1> <!-- titre principal de la page, sur le mot "le bras", il t"envoi une la page "CV", avec l'attribut _blank qui te créé une autre page --> 
+
+   
+    <a href="images/salle-attente.jpg" target="_blank"> <!-- Impression d'image de la salle d'attente sur la page qui en cliquant t'envoi sur une autre page qui montre le cabinet  --> . 
+        <img src="images/cabinetmedical.jpg" width=250 alt="image du cabinet médical"> 
+    </a>
+
+    
+    <p>Bienvenue, je suis le Dr Echaïeb.<br> <!-- paragraphe avec la balise qui te fait un saut à la ligne --> .
+    Sur cette page vous trouverez des renseignements sur mon cabinet médical.</p>
+
+    <h2>Sur cette page vous trouverez des renseignements sur mon cabinet médical.</h2> <!-- titre secondaire de la page -->
+
+    <p>Le cabinet est ouvert tous les jours du Lundi au Samedi: </p> 
+
+    
+    <table border="1"> <!-- définit une table pour afficher les données en lignes et en colonne avec l'attribut border qui ajoute une bordure entre les éléments du tableau -->
+        <tr> 
+            <td><b>Lundi</b></td> 
+            <td>9h00-12h00</td> 
+            <td>14h00-17h00</td> 
+        </tr>
+        <tr>
+            <td><b>Mardi</b></td>
+            <td>9h00-12h00</td>
+            <td>14h00-17h00</td>
+        </tr>
+        <tr>
+            <td><b>Mercredi</b></td>
+            <td>9h00-12h00</td>
+            <td>14h00-17h00</td>
+        </tr>
+        <tr>
+            <td><b>Jeudi</b></td>
+            <td>9h00-12h00</td>
+            <td>14h00-17h00</td>
+        </tr>
+        <tr>
+            <td><b>Vendredi</b></td>
+            <td>9h00-12h00</td>
+            <td>14h00-17h00</td>
+        </tr>
+        <tr>
+            <td><b>Samedi</b></td>
+            <td>9h00-12h00</td>
+            <td>14h00-17h00</td>
+        </tr>
+        <tr>
+            <td><b>Dimanche</b></td>
+            <td></td>
+            <td></td>
+        </tr>
+    </table> 
+
+    <h2>En cas d'urgence</h2> 
+    <ul> <!-- liste non ordonnées avec des puces -->
+        <li>Pendant les heures d'ouverture, appelez le numéro du cabinet (01.XX.XX.XX.XX)</li> 
+        <li>Si vous ne pouvez pas me joindre, appelez le 15 (SAMU)</li>
+        <li>En dehors des heures d'ouverture, le répondeur du cabinet vous donnera les coordonnées du médecin de garde</li>
+    </ul>
+
+    <h2>Me joindre par internet</h2> 
+    <p>Si vous désirez me joindre, vous pouvez <a href="https://ordomedic.be/fr/contact" target="_blank">utiliser le formulaire de contact suivant</a><br>
+        Je suis par ailleurs membre de démonstration des <abbr title="Médecins Maîtres-Toile">MMT</abbr></p>
+   
+   <p id="premier_page"></p> <!-- paragraphe avec un identifiant unique--> 
+
+ 	<a href="medicament.html">Liste des médicaments</a> <!-- lien qui t'emmène sur la fin de liste de la page medicament avec un ancrage-->
+   
+   <a href="medicament.html#fin_de_liste">Fin de liste des médicaments</a> <!-- lien qui t'emmène sur la fin de liste de la page medicament avec un ancrage-->
+
+</html> 
